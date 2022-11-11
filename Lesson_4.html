@@ -1,0 +1,156 @@
+<?php
+
+    $job = [
+    	'job name' => ['Platoon commander', 'Radio interception center shift supervisor', 'Senior officer of the information and analytical department'],
+        'description' => ['1 Lorem ipsum dolor sit amet, consectetur adipisicing elit.', '2 Lorem ipsum dolor sit amet, consectetur adipisicing elit.', '3 Lorem ipsum dolor sit amet, consectetur adipisicing elit.']
+    ]
+
+
+?>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Мое резюме</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=XBonlubO-bHHWmhxGz9Nz68nvJ2rPtFUrI-7A8i01axY1Z4HY6Ia4s6uWDFzM1gX0UidUA_vQvWBaE20LDO4ht1hoJWOOwQ8DqAX06e1IgePyIcsbVEDFCqqztitGC0GzmusKPUuo-KCtJnSQjkmmwBQSHuwyviaLiPm42cS65MFtskD_kOytw-5OosPhcXtS0nieg2ZgqD_8fmxbN-RdbsNeXOgbZxGDqDdIZpuqE47q8PkDjXCzHEoB57SuFmjs3LWG7o7qrBYl88KAlbQ88fvS7cR8ke6m5iA0dSMVmn9AA9EBLCrW8iIa1ZBHeg0vKQW7n6JBRZDITg7i4MGcNnrziaB9lGvKf6KlNZoFqv1oIOU-68a34NFW2AUOfg4z23S-PfkLvhCEcTCi8S5JW_8SS2wUxD_f3Nv82Jd7IyenOhCjZFZHZo-5F4uxS5QrXWJnkVeG7heYUH7efBJ04erWo4OOsbpfFlu_BlXShMZZOY3N0x_ZxcFhkTix184iTwi51-yJVbk7oSGc-oxOJuGfxQNFScWLSpAV1Zo8k4ajMwB3Z603L7O6wFW6_tmb9f7s5J32mUziZo4HpJQcdkaPUzqEy0FsR-n1MJTokthGKp6oKWGGFhmFzQqn59LZcoo161_O39y1Au4tG9xF9nNrMfz2HeBk6s8auLk7eWkqjEX6EaAiNRBFY5to2NF-xGwRGPqHOdknjfPBItR3y4ZXu9sfa8i33XaK81OXrOqsPCbR9j8JZ7-Plceof5KV-TB0rCaWBbwg-r5E3Eu6esixcfKMjmA3GyToPfRT08HNWfNRkIajqkrflaT9OnwzuqqrV6Q2RWnCRmu3GwXA1NNv8PzkSGUb1Vqy6dAkJiGTdxDOvSkMREpLtKSUfyYgaNcmBeA4inVYpmlzqfVYGNHnpnkhgKLfde6a2AmCzmEBR_tEGJ_G3k0laicjy5SdrE0O7YL2hhTJV2oAtH37g" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9zMTI3dmxhLnN0b3JhZ2UueWFuZGV4Lm5ldC9yZGlzay85N2E2ZTM2NzFhOWUxMDM4MDA1YjgzZmRjNGQ5MTE3ZmMwNmE3MDhjN2Y1OWJiNDQwYTgxMDFlMjkxNTBjMTNkLzYzNmQ3YzhlL3ZEQzViM0d2R0JGdnd5WWZaWXRLckdTMU5hSEVRRENrQ25xUTRpZmctLVJaazFqM21CaHNDWTA5d0pNR1M2aDNuUlpOZDlnc3JkZmExLU1TX1Q0dFJ3PT0_dWlkPTkzNzI0MjkmZmlsZW5hbWU9Y3YuaHRtbCZkaXNwb3NpdGlvbj1hdHRhY2htZW50Jmhhc2g9JmxpbWl0PTAmY29udGVudF90eXBlPXRleHQlMmZodG1sJm93bmVyX3VpZD05MzcyNDI5JmZzaXplPTY2MzUmaGlkPWJmZjBmN2I0OTdiNGQyZjE5NmY0NDcyODIyMWQ5ZDE4Jm1lZGlhX3R5cGU9ZGV2ZWxvcG1lbnQmdGtudj12MiZldGFnPWFkZTJiOTViYjg3MWE3YTAyZDI3NDQ5YTg4MDIxMDY1JnJ0b2tlbj1raWxiYVVVbzlDS3QmZm9yY2VfZGVmYXVsdD15ZXMmeWNyaWQ9bmEtN2E0ZWJmN2M2YzQ0NDNiMTdjYzhkMzc5OTNhZWYyNzAtZG93bmxvYWRlcjIzZSZ0cz01ZWQyNTYxY2RiZjgwJnM9Mzk4ZGNmOTcxZDA0OTlkN2ViMDMyZWQ1YzJkODliODQyNjc3ZjA4MjNhZThlOWM1NDJkN2M0OWQyMTZkNDk1NyZwYj1VMkZzZEdWa1gxOFA2ZDVtQ1JMQ3lkbzFsbFZWUmlNckN5TG1PMFlGd01oVDJxUXF3RG1TM1VhLVdNVzBVOWNyNXNrb3ltZXJfVGJ4TWxSLU84aVBxRl95U3g0VWhtQXdIX29FM0VmcmlVMA"/><style>
+    html,body,h1,h2,h3,h4,h5,h6 {font-family: 'Jost', sans-serif;}
+    </style>
+  </head>
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="https://imgfon.ru/Images/Details_img_880px/Animals/glaza-belyy_fon-kotik-morda-polosatyy.webp" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Имя</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Профессия</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Город, страна</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>E-mail</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>Телефон</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Навыки</b></p>
+          <p>Adobe Photoshop</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          <p>Photography</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+          <p>Illustrator</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+          </div>
+          <p>Media</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Языки</b></p>
+          <p>Английский</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Испанский</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+          </div>
+          <p>Немецкий</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Опыт работы</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b><?php echo $job['job name'][0]; ?></b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p><?php echo $job['description'][0]; ?></p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b><?php echo $job['job name'][1]; ?></b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+          <p><?php echo $job['description'][1]; ?></p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b><?php echo $job['job name'][2]; ?></b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+          <p><?php echo $job['description'][2]; ?></p><br>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Образование</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>gb.ru</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+          <p>Web Development! All I need to know in one place</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>London Business School</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+          <p>Master Degree</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>School of Coding</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
+          <p>Bachelor Degree</p><br>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+ <!-- End footer -->
+ </footer>
+
+</body>
+</html>
